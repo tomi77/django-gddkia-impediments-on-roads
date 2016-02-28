@@ -5,6 +5,10 @@ django-gddkia-impediments-on-roads
 .. image:: https://codeclimate.com/github/tomi77/django-gddkia-impediments-on-roads/badges/gpa.svg
    :target: https://codeclimate.com/github/tomi77/django-gddkia-impediments-on-roads
    :alt: Code Climate
+.. image:: https://travis-ci.org/tomi77/django-gddkia-impediments-on-roads.svg?branch=master
+   :target: https://travis-ci.org/tomi77/django-gddkia-impediments-on-roads
+.. image:: https://coveralls.io/repos/github/tomi77/django-gddkia-impediments-on-roads/badge.svg?branch=master
+   :target: https://coveralls.io/github/tomi77/django-gddkia-impediments-on-roads?branch=master
 
 Installation
 ============
