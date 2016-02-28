@@ -17,6 +17,6 @@ install:
   - pip install -q Django==$DJANGO
   - pip install --upgrade mock
 script:
-  - coverage run setup.py test
+  - DJANGO_SETTINGS_MODULE=tests.test_settings coverage run setup.py test
 after_success:
   - coveralls
