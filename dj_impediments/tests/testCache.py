@@ -1,7 +1,9 @@
-from unittest import mock
-
 from dj_impediments import get_impediments
 from django.test import SimpleTestCase
+try:
+    from unittest import mock
+except ImportError:
+    from mock import mock
 
 
 class GetImpedimentsTestCase(SimpleTestCase):
