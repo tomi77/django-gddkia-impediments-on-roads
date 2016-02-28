@@ -12,7 +12,7 @@ env:
   - DJANGO=1.9.2
 install:
   - pip install coveralls gddkia-impediments-on-roads
-  - pip install pip install -q Django==$DJANGO
+  - pip install -q Django==$DJANGO
   - pip install --upgrade mock
 script:
   - coverage run setup.py test
