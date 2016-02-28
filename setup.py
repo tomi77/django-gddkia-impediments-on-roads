@@ -34,6 +34,5 @@ setup(
     install_requires=[
         'django>=1.4',
         'gddkia-impediments-on-roads'
-    ],
-    test_suite='tests.run_tests'
+    ]
 )

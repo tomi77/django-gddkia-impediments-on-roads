@@ -11,12 +11,12 @@ env:
 matrix:
   include:
     - python: 3.5
-      env: DJANGO_VERSION=1.9.2
+      env: DJANGO=1.9.2
 install:
   - pip install coveralls gddkia-impediments-on-roads
   - pip install -q Django==$DJANGO
   - pip install --upgrade mock
 script:
-  - DJANGO_SETTINGS_MODULE=tests.test_settings coverage run setup.py test
+  - coverage run ./manage.py test
 after_success:
   - coveralls
