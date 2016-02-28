@@ -30,9 +30,10 @@ setup(
         'Topic :: Utilities',
     ],
     license=__license__,
-    packages=find_packages(exclude=['tests']),
+    packages=find_packages(exclude=['dj_impediments.tests', 'tests']),
     install_requires=[
         'django>=1.4',
         'gddkia-impediments-on-roads'
-    ]
+    ],
+    test_suite='tests.run_tests'
 )
