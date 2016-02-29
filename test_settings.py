@@ -10,3 +10,5 @@ DATABASES = {
         'PORT': '',
     }
 }
+
+INSTALLED_APPS = ['dj_impediments']
